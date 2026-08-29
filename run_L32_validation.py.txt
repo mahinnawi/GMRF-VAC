@@ -1,0 +1,8 @@
+# GMRF-VAC: L=32 validation script
+# This script will later reproduce the main numerical results.
+
+print("GMRF-VAC L=32 validation")
+print("This script will be updated to reproduce:")
+print("  - determinant log ratio")
+print("  - relaxation scalar")
+print("  - Delta F~ value")
