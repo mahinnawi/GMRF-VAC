@@ -8,7 +8,7 @@ The implementation treats a vacancy through physical node-and-bond deletion in a
 
 This repository accompanies the manuscript:
 
-> M. A. Hinnawi, “Gaussian Markov Random Field Model for Lattice Relaxation Around a True Vacancy in a Harmonic Crystal: Normalized Harmonic Contributions and Computational Implementation,” submitted to *Computer Physics Communications*.
+> Mahmoud Hinnawi, “Gaussian Markov Random Field Model for Lattice Relaxation Around a True Vacancy in a Harmonic Crystal: Normalized Harmonic Contributions and Computational Implementation,” submitted to *Computer Physics Communications*.
 
 ## Requirements
 
