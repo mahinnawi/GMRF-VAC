@@ -42,9 +42,9 @@ The reference calculation uses:
 Additional validation and benchmarking scripts are provided in the `code/` directory:
 
 ```text
-GMRF-VAC_Regularization_Sensitivity.py
+GMRF-VAC_regularization_sensitivity.py
 GMRF-VAC_SparseLU_Benchmark.py
-GMRF-VAC_Grounded_Node_Comparison.py
+GMRF-VAC_run_grounded_node_comparison.py
 GMRF-VAC_PseudoDet_Spectral_Validation.py
 ```
 
