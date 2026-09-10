@@ -288,10 +288,14 @@ def run_grounded_comparison(
     #
     # Delta F_det^(p) = ln(1/N) = -ln(N)
     #
-    # for beta = kappa = 1.
+    # General expression; for beta = kappa = 1,
+# this reduces to -ln(N).
     # ----------------------------------------------------------
 
-    delta_F_det_p = -np.log(N)
+    delta_F_det_p = (
+    -(1.0 / beta) * np.log(beta * kappa)
+    - (1.0 / beta) * np.log(N)
+)
 
     # ----------------------------------------------------------
     # 9. Total grounded-node contribution
