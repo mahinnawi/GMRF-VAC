@@ -285,18 +285,18 @@ def run_grounded_comparison(
     # det(L^(p)) / pdet(L) = 1 / N
     #
     # The general determinant contribution is:
-#
-# Delta F_det^(p)
-#     = -(1/beta) ln(beta*kappa)
-#       + (1/beta) ln(1/N)
-#
-# For beta = kappa = 1, this reduces to -ln(N).
+    #
+    # Delta F_det^(p)
+    #     = -(1/beta) ln(beta*kappa)
+    #       + (1/beta) ln(1/N)
+    #
+    # For beta = kappa = 1, this reduces to -ln(N).
     # ----------------------------------------------------------
 
     delta_F_det_p = (
     -(1.0 / beta) * np.log(beta * kappa)
     - (1.0 / beta) * np.log(N)
-)
+    )
 
     # ----------------------------------------------------------
     # 9. Total grounded-node contribution
