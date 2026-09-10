@@ -672,9 +672,8 @@ def calculate_one_L(
     # Since beta*kappa = 1 in the
     # default formulation:
     delta_F_det = (
-        beta
-        * kappa
-        * ln_pdet_ratio
+         -(1.0 / beta) * np.log(beta * kappa)
+         + (1.0 / beta) * ln_pdet_ratio
     )
 
     # --------------------------------------------------------
