@@ -507,7 +507,7 @@ def compute_relaxation(
     """
     Solve
 
-        (Q_def + epsilon I) mu = f_ext
+        (Q_def + epsilon I) mu = beta * f_ext
 
     with
 
