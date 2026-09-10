@@ -1182,13 +1182,14 @@ def run_authoritative_table2():
 
     print()
     print(
-        "The quantity C_inf is an extrapolated thermodynamic-"
+    "The quantity C_inf is an extrapolated estimate based"
     )
-
     print(
-        "limit estimate and must not be identified with C_64."
+    "on the selected finite-size model and must not be"
     )
-
+    print(
+    "identified with C_64."
+    )
     print()
     print(
         "No manuscript values are hard-coded into this program."
