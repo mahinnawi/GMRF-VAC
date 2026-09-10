@@ -669,8 +669,7 @@ def calculate_one_L(
         ln_pdet_ratio
     )
 
-    # Since beta*kappa = 1 in the
-    # default formulation:
+    # General determinant contribution from Eq. (15):
     delta_F_det = (
          -(1.0 / beta) * np.log(beta * kappa)
          + (1.0 / beta) * ln_pdet_ratio
