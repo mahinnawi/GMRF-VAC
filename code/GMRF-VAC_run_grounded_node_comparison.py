@@ -358,7 +358,7 @@ def run_grounded_comparison(
     )
 
     print(
-        "Delta F_det^(p) = -ln(N)      : "
+        "Delta F_det^(p) =             : "
         f"{delta_F_det_p:.12f}"
     )
 
