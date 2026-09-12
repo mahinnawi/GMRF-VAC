@@ -9,7 +9,7 @@ in the GMRF-VAC model by comparing:
     2. Product of the non-zero eigenvalues
 
 The validation is performed for small perfect periodic square
-lattices with L = 2,...,8.
+lattices with L = 3,...,8.
 """
 
 import numpy as np
@@ -29,7 +29,7 @@ import scipy.sparse.linalg as spla
 #       2. Product of the non-zero eigenvalues
 #
 # The test is performed for small perfect periodic
-# square lattices, L <= 8.
+# square lattices, 3 <= L <= 8.
 # ============================================================
 
 
@@ -229,7 +229,7 @@ def validate_one_L(L: int):
 
 def run_validation():
 
-    lattice_sizes = [2, 3, 4, 5, 6, 7, 8]
+    lattice_sizes = [3, 4, 5, 6, 7, 8]
 
     print()
     print("=" * 100)
