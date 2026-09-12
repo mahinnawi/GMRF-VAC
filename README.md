@@ -15,6 +15,7 @@ This repository accompanies the manuscript:
 * Python 3.10 or later
 * NumPy
 * SciPy
+* Matplotlib
 
 Install the required Python packages with:
 
